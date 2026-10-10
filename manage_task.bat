@@ -18,6 +18,7 @@ echo  6. Check Task Status (Query)
 echo  7. Exit
 echo.
 
+set "CHOICE="
 set /p "CHOICE=Choose what you want to do (1-7): "
 
 if "%CHOICE%"=="7" goto END
